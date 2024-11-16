@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Georgia", serif;
+  margin: 0;
+  padding: 0;
+  color: #4b2e2e;
+  background-color: #fff8dc;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #8b4513;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8b4513;
+  color: #fff8dc;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 28.8px;
+  font-weight: bold;
+  color: #fff8dc;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navlinks li {
+  display: inline;
+}
+
+.navlinks a {
+  font-weight: 600;
+  color: #fff8dc;
+}
+
+.navlinks a:hover {
+  color: #ffd700;
+}
+
+.review-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.review-section h1 {
+  font-size: 36px;
+  color: #5d4037;
+}
+
+.review-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preview {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-container {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preview:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.preview h2 {
+  font-size: 22px;
+  color: #8b4513;
+  margin-bottom: 5px;
+}
+
+.preview p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0b4163;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.read-more:hover {
+  color: #8b4513;
+}
+
+footer {
+  background-color: #4b2e2e;
+  color: #fff8dc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14.4px;
+}
+
+.footer-outline a {
+  color: #ffd54f;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.footer-outline a:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}

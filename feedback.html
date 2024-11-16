@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reader's Haven - Feedback</title>
+    <link rel="stylesheet" href="CSS/stylefeedback.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="title">Readers' Haven</div>
+      <nav>
+        <ul class="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bookreviews.html">Book Reviews</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="feedback-outline">
+      <h1>We Value Your Feedback &#128513;</h1>
+      <p>Let us know your thoughts about our website and book reviews!</p>
+      <form class="feedback-form">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating" required>
+          <option value="">Select a rating</option>
+          <option value="5">Excellent &#129321;</option>
+          <option value="4">Great &#128515;</option>
+          <option value="3">Good &#128578;</option>
+          <option value="2">Moderate &#128528;</option>
+          <option value="1">Poor &#128543;</option>
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea
+          id="comments"
+          name="comments"
+          rows="5"
+          placeholder="Feel free to share your thoughts here..."
+          required
+        ></textarea>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="footer-outline">
+        <p>&copy; 2024 Readers' Haven. All Rights Reserved.</p>
+        <p>
+          Email:
+          <a href="mailto:support@readers-haven.pk">support@readers-haven.pk</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

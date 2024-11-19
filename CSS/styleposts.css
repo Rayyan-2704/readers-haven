@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Georgia", serif;
+  margin: 0;
+  padding: 0;
+  color: #4b2e2e;
+  background-color: #faf0e6;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #8b4513;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8b4513;
+  color: #fff8dc;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 28.8px;
+  font-weight: bold;
+  color: #fff8dc;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navlinks li {
+  display: inline;
+}
+
+.navlinks a {
+  font-weight: 600;
+  color: #fff8dc;
+}
+
+.navlinks a:hover {
+  color: #ffd700;
+}
+
+.book-section {
+  padding: 40px 20px;
+  background-color: #fff8dc;
+}
+
+.review-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.book-content {
+  flex: 3;
+}
+
+.book-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #8b4513;
+}
+
+.book-content h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #4b2e2e;
+}
+
+.review-text {
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.reviewer-info {
+  font-size: 14px;
+  color: #0a2747;
+  margin-bottom: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bookcover-container {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bookcover {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #000000;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.interaction-section {
+  padding: 20px;
+  background-color: #faf0e6;
+}
+
+.rating-section {
+  text-align: center;
+  margin: 30px 0;
+  font-family: Arial, sans-serif;
+}
+
+.rating-section label {
+  font-size: 18px;
+  color: #4b2e2e;
+}
+
+.rating-section select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #4b2e2e;
+  appearance: none; /* Remove default styling */
+}
+
+.rating-section select option {
+  font-size: 16px;
+  padding: 5px;
+  color: #4b2e2e;
+}
+
+.comments-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.comments-section textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+}
+
+.comments-section .submit-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #228b22;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comments-section .submit-button:hover {
+  background-color: #196f3d;
+}
+
+.share-section {
+  text-align: center;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  color: #4b2e2e;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #8b4513;
+}
+
+footer {
+  background-color: #4b2e2e;
+  color: #fff8dc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14.4px;
+}
+
+.footer-outline a {
+  color: #ffd54f;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.footer-outline a:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}

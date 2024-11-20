@@ -148,10 +148,3 @@ footer p {
   color: #ffc107;
   text-decoration: underline;
 }
-
-@media (max-width: 768px) {
-  .feedback-outline {
-    margin: 20px;
-    padding: 15px;
-  }
-}
